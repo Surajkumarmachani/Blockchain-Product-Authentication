@@ -1,0 +1,33 @@
+{
+  "name": "regal-poc-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^4.0.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.6.3",
+    "chai": "^6.3.0",
+    "ethers": "^6.17.0",
+    "hardhat": "^3.18.0",
+    "mocha": "^12.0.3",
+    "typescript": "^5.9.3"
+  },
+  "description": "REGAL LAB Phase 0 proof of concept: RegalPassportPoC contract",
+  "scripts": {
+    "build": "hardhat build",
+    "test": "hardhat test",
+    "typecheck": "tsc -p tsconfig.json",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ignition/modules/RegalPassportPoC.ts --network localhost",
+    "mint:local": "hardhat run scripts/mint-sample.ts --network localhost",
+    "deploy:amoy": "hardhat ignition deploy ignition/modules/RegalPassportPoC.ts --network amoy --verify",
+    "mint:amoy": "hardhat run scripts/mint-sample.ts --network amoy"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

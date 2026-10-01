@@ -1,0 +1,12 @@
+{
+  "name": "REGAL Heritage Tote (demo)",
+  "description": "Phase 0 demo passport. Not anti-counterfeit: a QR code alone cannot prove an item is genuine.",
+  "image": "ipfs://REPLACE_WITH_IMAGE_CID",
+  "attributes": [
+    { "trait_type": "Serial number", "value": "RGL-2026-000001" },
+    { "trait_type": "Manufacturer timestamp", "value": "2026-10-01T09:00:00Z" },
+    { "trait_type": "Checkpoint 1", "value": "Leather tanned, Chennai, 2026-09-12" },
+    { "trait_type": "Checkpoint 2", "value": "Assembled, Bengaluru, 2026-09-28" },
+    { "trait_type": "Checkpoint 3", "value": "Quality approved, Bengaluru, 2026-10-01" }
+  ]
+}

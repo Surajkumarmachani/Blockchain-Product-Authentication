@@ -1,0 +1,9 @@
+node_modules/
+artifacts/
+cache/
+types/
+coverage/
+.env
+.env.*
+# local-node deployments are throwaway; keep Amoy (chain-80002) deployments in git
+ignition/deployments/chain-31337/
